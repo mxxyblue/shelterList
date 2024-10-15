@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Summer Shelter List</title>
+</head>
+<body>
+    <h1>서울시 무더위 쉼터 현황</h1>
+    <table>
+        <thead>
+            <tr>
+                <td>쉼터명칭 검색</td>
+                <td><input type="text" class="searchKeyword"/></td>
+                <td><button class="searchBtn">검색</button></td> 
+            </tr>
+            <tr>
+                <th>시설번호</th>
+                <th>시설유형</th>
+                <th>쉼터명칭</th>
+                <th>도로명주소</th>
+                <th>야간개방</th>
+                <th>운영시작일</th>
+                <th>운영종료일</th>
+            </tr>
+        </thead>
+        <tbody id="shelterList">
+
+        </tbody>
+    </table>
+    <div class="pagination-container">
+        <button class="prev-button">이전</button>
+        <div class="number-button-wrapper"></div>
+        <button class="next-button">이후</button>
+    </div>
+</body>
+<script src='shelterList.js'></script>
+</html>
